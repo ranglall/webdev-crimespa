@@ -1,11 +1,41 @@
-# WebDev St Paul Crime SPA
+# WebDev St. Paul Crime SPA
 
-**St. Paul Crime Map** is an interactive, responsive single-page web application built with Vue.js that allows users to explore and investigate crime data across St. Paul neighborhoods. The app integrates multiple APIs, including Leaflet for mapping, Nominatim for location search, and a custom crime data API, enabling users to view, filter, and analyze crime information on an interactive map. A companion **About the Project** page documents the team, development process, and highlights key findings from the data.
+## Overview
+**St. Paul Crime Map** is an interactive, responsive **single-page web application (SPA)** that allows users to explore crime data across neighborhoods in St. Paul. The application integrates multiple APIs and presents the data through an interactive map and filtering tools.
 
+The project was developed using **Vue.js** and **Foundation**, with a companion **About the Project** page documenting the development process and data insights.
 
-## Steps to run
-1. git clone https://github.com/ranglall/wedev-crimespa.git
-2. `cd wedev-crimespa`
-3. In the terminal, run `npm install`
-4. In the terminal, `node rest_server.mjs`
-5. Visit the homepage in a browser (http://localhost:8000)
+---
+
+## 💡 Features
+- Interactive crime map using Leaflet
+- Location search via Nominatim API
+- Custom REST API for crime data
+- Responsive SPA built with Vue.js
+- Data filtering and exploration tools
+
+---
+
+## 🤖 Technologies Used
+- Vue.js
+- Leaflet API
+- Nominatim API
+- JavaScript
+- Node.js
+- Express
+- SQLite
+- Foundation CSS framework
+
+---
+
+## ⬇️ Installation Instructions
+1. Clone this repository: `git clone https://github.com/ranglall/wedev-crimespa.git`
+2. Navigate into the project directory: `cd wedev-crimespa`
+3. Install dependencies: `npm install`
+   
+---
+
+## 🚀 Usage Instructions
+1. Start the backend API server: `node rest_server.mjs`
+2. Open a browser and visit: `http://localhost:8000`
+3. Interact with the map to explore crimes by neighborhood and location.
