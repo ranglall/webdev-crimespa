@@ -5,7 +5,7 @@
 
 ## Steps to run
 1. git clone https://github.com/ranglall/wedev-crimespa.git
-2. cd wedev-crimespa
+2. `cd wedev-crimespa`
 3. In the terminal, run `npm install`
 4. In the terminal, `node rest_server.mjs`
 5. Visit the homepage in a browser (http://localhost:8000)
